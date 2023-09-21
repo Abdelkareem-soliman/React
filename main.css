@@ -1,0 +1,367 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px rgb(161, 161, 248);
+    width: 100%;
+    height :42px;
+    
+    
+}
+.left{
+    display:flex;
+    
+}
+.left .fa-facebook{
+    color:blue;
+    font-size: 35px;
+    margin-right:8px;
+}
+form{
+    position:relative;
+}
+form .fa-search{
+    position:absolute;
+    left: 15px;
+    top:9px;
+    color: rgb(50, 46, 46);
+    font-size: 15px;
+}
+form input{
+    border: none;
+    
+    padding: 7px 16px 9px 40px;
+    color:black;
+    font-size: 15px;
+    height:37px;
+    
+}
+
+form input:focus{
+    outline: none;
+}
+ 
+nav .mid{
+    display:flex;
+    width:400px;
+    justify-content: space-between;
+   
+}
+
+nav .mid i:hover {
+    background-color: rgba(180, 187, 255, 0.5);
+
+}
+
+nav .mid i{
+
+    text-decoration: none;
+    font-size: 22px;
+    color:grey;
+    border-radius: 8px;
+}
+
+.right{
+    width:350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .right .imgtext{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav .right .imgtext img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.iicons{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+
+}
+.iicons a {
+    color: black;
+    background-color: #e4e6eb;
+    font-size: 18px;
+    margin :5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f4f5;
+}
+section .lef{
+    background-color: #ffffff;
+    height:100vh;
+    width:350px;
+    overflow: hidden;
+    position: sticky;
+    left: 0;
+    top:56px;
+}
+section .lef:hover{
+    overflow: scroll;
+}
+section .lef ul li{
+    display:flex;
+    align-items: center;
+    padding:15px 10px 10px 0px ;
+}
+section .lef ul li img{
+    border-radius: 50%;
+    
+}
+section .lef ul li i{
+    font-size: 25px;
+}
+section .lef ul li p{
+    margin:0px 15px 0px 15px;
+}
+.middle{
+    padding: 0px 70px;
+    
+}
+
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.firstleft{
+    width:100px;
+    height:200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 9px;
+    box-shadow: 0px 0px 5px 5px #ddd;
+    overflow: hidden;
+    position: relative;
+}
+.firstleft .icons{
+    font-size: 20px;
+    background-color: #1877f2;
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+    object-fit: cover;
+    border:solid 4px white;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 70%;
+
+}
+.firstleft .firstime {
+    width: 100%;
+    height: 145px;
+}
+.firstleft p{
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.second2{
+    position: relative;
+}
+.second2 .small{
+    position: absolute;
+    top: 10px;
+    left:14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 4px#1877f2;
+    z-index:2 ;
+}
+.second2 .second {
+    height: 100%;
+    
+}
+.second2 p{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left:8px;
+
+}
+.rectangle{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0px 0px 5px 5px #ddd;
+}
+.rectangle .re{
+    display: flex;
+    align-items: center;
+}
+.re input{
+    display:flex;
+    align-items: center;
+    padding-right: 255px;
+    background-color: #f0f2f5;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+.re input:hover{
+    background-color: rgba(0, 0, 0,0.1 );
+}
+.short{
+    width:30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.shapess{
+    display :flex;
+    width: 100%;
+} 
+.l{
+    display: flex;
+    margin: 8px 30px 5px 43px;
+}
+.m{
+    display: flex;
+    margin: 8px 30px 5px 43px;
+}
+.r{
+    display: flex;
+    margin: 8px 0px 5px 43px;
+}
+.l a{
+    margin-right: 7px;
+    font-size: 20px;
+    color: rgb(238, 73, 73);
+
+ }
+.m a{
+    margin-right: 7px;
+    font-size: 20px;
+    color:rgb(18, 217, 25)
+
+ }
+.r a{
+    margin-right: 7px;
+    font-size: 20px;
+    color:rgb(174, 174, 12)
+}
+.square{
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 13px;
+} 
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post{
+    padding: 20px;
+    display: flex;
+    
+}
+.post img{
+    border-radius: 50%;
+    margin-right: 9px;
+}
+.fa-ellipsis{
+    margin-right: 18px;
+    font-size: 20px;
+}
+.post .details .name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.post .details .time{
+    font-size: 12px;
+    color: rgb(86, 83, 83);
+}
+.mi{
+    display: flex;
+    padding-left: 20px;    
+}
+.mi .emo{
+    font-size: 14px;
+}
+.mi .t{
+    font-size: 18px;
+}
+.down{
+    margin-top: 5px;
+}
+.k{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.like{
+    display: flex;
+}
+.comment{
+    display: flex;
+}
+.share{
+    display: flex;
+}
+.like button{
+    border: none;
+    font-size:18px;
+    margin-right: 11px;
+    color: #ddd;
+}
+
+.comment button{
+    border: none;
+    font-size:18px;
+    margin-right: 11px;
+}
+.share button{
+    border: none;
+    font-size:18px;
+    margin-right: 11px;
+}
+
+.rig{
+    width: 350px;
+    overflow: hidden;
+}
+.rig .spon{
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+    margin-top: 75px;
+    
+}
+.reaaal{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    background-color: white;
+}
+.reaaal img{
+    margin-right: 13px; 
+}
+.brand{
+    position: absolute;
+    top: 20px;
+    left:120px
+}
